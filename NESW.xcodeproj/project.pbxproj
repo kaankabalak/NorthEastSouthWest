@@ -14,6 +14,7 @@
 		8C949F411F148D2500FF3D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C949F3F1F148D2500FF3D34 /* LaunchScreen.storyboard */; };
 		8C949F4C1F148D2500FF3D34 /* NESWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C949F4B1F148D2500FF3D34 /* NESWTests.swift */; };
 		8C949F571F148D2500FF3D34 /* NESWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C949F561F148D2500FF3D34 /* NESWUITests.swift */; };
+		8C949F671F156EDC00FF3D34 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C949F661F156EDC00FF3D34 /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C949F521F148D2500FF3D34 /* NESWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C949F561F148D2500FF3D34 /* NESWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESWUITests.swift; sourceTree = "<group>"; };
 		8C949F581F148D2500FF3D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C949F661F156EDC00FF3D34 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OtherViewController.swift; path = ../OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		8C949F351F148D2500FF3D34 /* NESW */ = {
 			isa = PBXGroup;
 			children = (
+				8C949F661F156EDC00FF3D34 /* OtherViewController.swift */,
 				8C949F361F148D2500FF3D34 /* AppDelegate.swift */,
 				8C949F381F148D2500FF3D34 /* ViewController.swift */,
 				8C949F3A1F148D2500FF3D34 /* Main.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C949F391F148D2500FF3D34 /* ViewController.swift in Sources */,
+				8C949F671F156EDC00FF3D34 /* OtherViewController.swift in Sources */,
 				8C949F371F148D2500FF3D34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

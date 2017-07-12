@@ -9,7 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var north: UIButton!
+    @IBOutlet weak var east: UIButton!
+    @IBOutlet weak var south: UIButton!
+    @IBOutlet weak var west: UIButton!
+    
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        performSegue(withIdentifier: "ClickSegue", sender: sender.titleLabel!.text)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +29,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! OtherViewController
+        destination.output = (sender as! String)
+        print("prepared")
+        
+    }
 
 }
 
